@@ -1,0 +1,45 @@
+// hi there
+* {
+    font-family: "Microsoft JhengHei", serif;
+    text-align: center;
+}
+
+$classname: "multiplication";
+
+.#{$classname} {
+    * {
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        background: #F0F0F0;
+    }
+
+
+
+    &__outline {
+        padding: 60px 40px 74px;
+    }
+
+    &__contentbox {
+        display: flex;
+        flex-wrap: wrap;
+
+        .boxSize {
+            width: 250px;
+            height: 260px;
+            margin: 20px 40px;
+        }
+
+        &--title {
+
+            border: solid red 1px;
+        }
+
+        &--content {
+
+            border: solid red 1px;
+
+        }
+
+    }
+}
